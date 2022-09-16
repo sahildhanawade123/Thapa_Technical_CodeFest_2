@@ -1,0 +1,654 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@700&family=Podkova&family=Poppins&display=swap');
+
+*{
+  margin: 0;padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+@mixin flexcenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flexbetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.marginrl {
+  margin-right: 11rem;
+  margin-left: 11rem;
+}
+
+.paddingrl {
+  padding-left: 11rem;
+  padding-right: 11rem;
+}
+
+.margintop{
+  // margin-top: ;
+}
+
+$white:white;
+$black:black;
+$grey: rgb(54, 52, 77);
+$greyshadow:rgb(102, 94, 94);
+$purple:#6610f2;
+$darkpurple:#2f1c6a;
+
+
+footer{
+  margin-top: auto;
+}
+
+
+header{
+  background-color: $white;
+  @include flexbetween();
+  padding-top: 1rem;
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.507);
+}
+
+  .navdiv1{
+    width: 20rem;
+  }
+
+  .navdiv2{
+    @include flexbetween();
+    list-style: none;
+    font-size: 1.8rem;
+
+    
+
+    .navdiv2links{
+      margin: 0 2rem;
+      @include flexcenter();
+      cursor: pointer;
+      color: $grey;
+      position: relative;
+      font-weight: bold;
+      // background-color: rebeccapurple;
+      padding-bottom: 1rem;
+      
+
+      &:hover{
+        color: $purple;
+       
+      }
+
+      &:hover::before{
+        content: '';
+        position: absolute;
+        padding-left: .5rem;
+        top: 1.7%;
+        left: -.8rem;
+        height: 70%;
+        width: 100%;
+        border-left: .2rem solid $purple;
+      }
+
+      .navarrow{
+        font-size: 2.5rem;
+        // background-color: red;
+      }
+
+      ul{
+        position: absolute;
+        top: 100%;
+        left: 0%;
+        list-style: none;
+        white-space: nowrap;
+        box-shadow: 0px 0px 2px $greyshadow;
+        padding: 1rem 1rem;
+        border-radius: .5rem;
+        background-color: $white;
+
+        li{
+          cursor: pointer;
+      color: $grey;
+      @include flexbetween();
+      font-size: 2rem;
+      white-space: nowrap;
+      // box-shadow: 0px 1px 1px $greyshadow;
+      border-bottom: 1px solid $greyshadow;
+      margin-bottom: 1rem;
+      padding-left: 1rem;
+      padding-right: 2rem;
+      transition: all .2s linear;
+
+        &:hover{
+          color: $purple;
+          scale: 1.02;
+        }
+      }
+
+      }
+
+    }
+
+
+    .login{
+      margin: 0 2rem;
+      translate: 0 -11%;
+      padding: .4rem 1.5rem;
+      color: $white;
+      box-shadow: 0px 0px 2px $greyshadow;
+      border-radius: 1.4rem;
+      font-size: 1.6rem;
+      text-transform: capitalize;
+      font-weight: 600;
+      color: rgb(87, 84, 84);
+
+      &::hover{
+        border-left: none;
+      }
+
+      .navarrow{
+        margin-right: .6rem;
+      }
+
+    }
+
+
+    .cart{
+      position: relative;
+
+      .navarrow{
+        font-size: 3rem;
+        margin-right: .5rem;
+      }
+
+      .cartcount{
+        position: absolute;
+        top: -15%;
+        left: 20%;
+        text-align: center;
+        line-height: 190%;
+        background-color: red;
+        color: $white;
+        font-size: 1rem;
+        height: 1.8rem;
+        width: 1.8rem;
+        border-radius: 50%;
+      }
+
+    }
+
+  }
+
+
+
+
+
+
+  .login{
+    // background-color: rebeccapurple;
+    padding: .4rem 2rem;
+    // color: $white;
+    box-shadow: 0px 0px 4px $greyshadow;
+    border-radius: 1.4rem;
+    font-size: 2rem;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: rgb(87, 84, 84);
+
+    .navarrow{
+      margin-right: .6rem;
+      font-size: 2.5rem
+    }
+
+  }
+
+
+
+
+
+
+
+
+  .navdiv2mob{
+    @include flexbetween();
+    list-style: none;
+    position: relative;
+    z-index: 2;
+
+
+
+
+    .navdiv2linksmob{
+      margin: 0 2rem;
+      @include flexcenter();
+      cursor: pointer;
+      color: $grey;
+      font-size: 2rem;
+
+      .navarrow{
+        font-size: 3.5rem;
+      }
+    }
+    
+
+
+
+
+
+    .cart{
+      position: relative;
+
+      .navarrow{
+        font-size: 3rem;
+        margin-right: .5rem;
+      }
+
+      .cartcount{
+        position: absolute;
+        top: -15%;
+        left: 20%;
+        text-align: center;
+        line-height: 190%;
+        background-color: red;
+        color: $white;
+        font-size: 1rem;
+        height: 1.8rem;
+        width: 1.8rem;
+        border-radius: 50%;
+      }
+
+    }
+
+
+
+
+
+
+  .navdiv2mob2{
+      position: absolute;
+      top: 120%;
+      right: calc(0% - 100%);
+      padding: 1.5rem 2rem;
+      background-color: $white;
+      box-shadow: 0px 0px 2px $greyshadow;
+      border-radius: 1rem;
+      transition: all 0.3s ease-out;
+      min-width: 45rem;
+      opacity: 0%;
+      
+    .navdiv2linksmob2{
+      cursor: pointer;
+      color: $grey;
+      @include flexbetween();
+      font-size: 2.5rem;
+      white-space: nowrap;
+      // box-shadow: 0px 1px 1px $greyshadow;
+      border-bottom: 1px solid $greyshadow;
+      margin-bottom: 1rem;
+      padding-left: 1rem;
+      padding-right: 2rem;
+      transition: all .15s linear;
+      position: relative;
+
+      &:hover{
+        color: $purple;
+        scale: 1.02;
+      }
+
+      &:hover::before{
+        position: absolute;
+        top: 15%;
+        left: -.05rem;
+        content: '';
+        height: 70%;
+        width: 100%;
+        border-left: .2rem solid $purple;
+      }
+
+      .navarrow{
+        // margin-left: .5rem;
+        // margin-right: 2rem;
+        font-size: 2.5rem;
+        }
+      }
+
+      .navdiv2linksmob2submenu{
+        font-size: 2.2rem;
+        margin-left: 2rem;
+      }
+
+    }
+
+
+  }
+
+
+
+.poster{
+  background-image: url('https://assets.hostinger.com/images/sales/summerSale2022v2/header/header-bg-xs@2x-0e4b9a7de4.png');
+  color: white;
+  @include flexcenter();
+  flex-direction: column;
+  padding: 5rem 0rem;
+  text-align: center;
+
+  .tagline{
+    font-size: 2.5rem;
+  }
+
+  .price{
+    margin-top: 1.6rem;
+    font-size: 7rem;
+    position: relative;
+    font-family: 'podkova', sans-serif;
+
+    &::before{
+      content: '₹';
+      font-size: .6em;
+      position: absolute;
+      top: 5%;
+      left: -7%;
+    }
+
+    &::after{
+      content: '/mo';
+      font-size: .5em;
+    }
+
+  }
+
+  
+  .para{
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    color: $white;
+  }
+
+
+  .time{
+    margin-top: 3.5rem;
+    @include flexcenter();
+    // background-color: aqua;
+
+    .days{
+      margin: 0 1rem;
+      @include flexbetween();
+      flex-direction: column;
+      // background-color: red;
+      
+
+      .daysno{
+        width: 6rem;
+        height: 6rem;
+        background-color: $white;
+        color: $grey;
+        @include flexcenter();
+        font-size: 4rem;
+        border-radius: 1.5rem;
+        box-shadow: 0px 0px 2px $greyshadow;
+      }
+
+      .daystext{
+        // text-align: center;
+        margin-top: .5rem;
+        font-size: 1.1rem;
+      }
+
+    }
+
+  }
+
+
+  .getstarted{
+    margin-top: 3rem;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding: 1rem 10rem;
+    border-radius: 3rem;
+    color: $white;
+    background-color: #fc5185;
+  }
+
+
+  .endtextline{
+    margin-top: 3.5rem;
+    @include flexcenter();
+    font-size: 1.7rem;
+
+    .texticon{
+      font-size: 2.5rem;
+      color: rgb(0, 255, 0);
+    }
+
+  }
+
+}
+
+
+.trustsignals{
+  margin: 3rem 0;
+  @include flexcenter();
+  .image{
+    margin: 0 2rem;
+  }
+}
+
+
+
+.heading{
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bolder;
+  color: $darkpurple;
+  margin-top: 10rem;
+}
+
+.para{
+  font-size: 1.5rem;
+  color: $grey;
+  text-align: center;
+}
+
+
+
+.plan{
+  margin-top: 3.5rem;
+  display: grid;
+  grid-template-columns: repeat(3,minmax(2rem, 1fr));
+  overflow: hidden;
+  border-radius: 1rem;
+  grid-gap: .5rem;
+  box-shadow: 0px 0px 4px $greyshadow;
+
+
+
+  .planheading{
+    grid-column: 1/-1;
+    font-size: 3rem;
+    background-color: $purple;
+    color: white;
+    text-align: center;
+
+  }
+
+
+  .planprice{
+    
+    @include flexcenter();
+    flex-direction: column;
+    border-left: 1px solid $greyshadow;
+    border-right: 1px solid $greyshadow;
+    padding: 1rem .5rem;
+
+    .price{
+      // margin-top: 1.6rem;
+      font-size: 4rem;
+      position: relative;
+      font-family: 'podkova', sans-serif;
+      margin-bottom: .5rem;
+      
+  
+      &::before{
+        content: '₹';
+        font-size: .6em;
+        position: absolute;
+        top: 5%;
+        left: -7%;
+      }
+  
+      &::after{
+        content: '/mo';
+        font-size: .5em;
+      }
+  
+    }
+
+
+    .select{
+      margin-top: 1rem;
+      background-color: $purple;
+      color: $white;
+      font-size: 1.5rem;
+      padding: .5rem 3.5rem;
+      border-radius: 2rem;
+    }
+    
+
+  }
+
+
+  .plandetails{
+    font-size: 1.8rem;
+    padding: 1rem .5rem;
+    // place-self: center;
+
+    p{
+
+      justify-content: flex-start;
+      .planicon{
+        font-size: 1.6rem;
+      }
+
+      .planicontick{
+        color: rgb(8, 211, 8);
+        font-size: large;
+      }
+
+    };
+
+
+  }
+
+}
+
+
+.services{
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(35rem, auto));
+  grid-gap: 1.5rem 1rem;
+  place-content: center;
+
+  .service{
+    @include flexcenter();
+    // background-color: rebeccapurple;
+    justify-content: flex-start;
+    font-size: 2.2rem;
+    color: $darkpurple;
+    font-weight: bold;
+  }
+
+}
+
+
+
+.searchdiv{
+  @include flexcenter();
+  flex-direction: column;
+
+  .para{
+    margin-top: 2rem;
+  }
+
+  .searchboxdiv{
+
+    input{
+      margin-top: 3rem;
+      padding: 1rem;
+      border-radius: 2rem;
+      border: none;
+      box-shadow: 0px 0px 4px $greyshadow;
+      font-size: 1.8rem;
+      width: 40rem;
+      display: block;
+      text-align: center;
+    }
+
+    .search{
+      margin-top: 2rem;
+      font-size: 1.8rem;
+      padding: 1rem 4rem;
+      color: $white;
+      background-color: $greyshadow;
+      border-radius: 3rem;
+      width: 100%;
+    }
+
+  }
+
+}
+
+
+
+
+.companies{
+  margin: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(20rem,auto));
+  grid-gap: 2rem;
+  place-content: center;
+}
+
+
+footer{
+  margin-top: 6rem;
+  text-align: center;
+  font-size: 2rem;
+  padding: 2rem;
+  background-color: $black;
+  color: $white;
+  
+  .hearticon{
+    font-size: 2.5rem;
+    translate: 0 .4rem;
+    animation: heartanimation .2s linear infinite;
+    color: red;
+  }
+}
+
+@keyframes heartanimation {
+  0%{   
+      scale: 1;
+  }
+  50%{ 
+      scale: .8;
+      color: white;
+  }
+  100%{
+      scale: 1; 
+  }
+}

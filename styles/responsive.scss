@@ -1,0 +1,183 @@
+$greyshadow:rgb(102, 94, 94);
+$white: white;
+
+@media screen and (max-width:1300px) {
+  html{
+    font-size: 60%;
+  }
+}
+
+@media screen and (max-width:1250px) {
+  html{
+    font-size: 57.5%;
+  }
+}
+
+@media screen and (max-width:1200px) {
+  html{
+    font-size: 55%;
+  }
+}
+
+@media screen and (max-width:1150px) {
+  html{
+    font-size: 52.5%;
+  }
+}
+
+@media screen and (max-width:1100px) {
+  html{
+    font-size: 50%;
+  }
+}
+
+
+@media screen and (max-width:1050px) {
+  html{
+    font-size: 47.5%;
+  }
+}
+
+
+@media screen and (max-width:980px) {
+  html{
+    font-size: 62.5%;
+  }
+
+  .marginrl {
+    margin-right: 3rem;
+    margin-left: 3rem;
+  }
+  
+  .paddingrl {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+}
+
+
+@media screen and (max-width:660px) {
+
+  .plan{
+    grid-template-columns: repeat(1,minmax(2rem, 1fr));
+    
+    .plandetails{
+      font-size: 2rem;
+      place-self: center;
+    }
+
+    .planprice{
+      border: none;
+      border-top: 1px solid $greyshadow;
+      border-bottom: 1px solid $greyshadow;
+
+      .price{
+        font-size: 5rem;
+      }
+
+    }
+
+  }
+
+}
+
+
+
+@media screen and (min-width:561px) {
+
+
+  .searchdiv{
+  
+    .searchboxdiv{
+      position: relative;
+      
+      input{
+        margin-top: 3rem;
+        padding: 1rem;
+        padding-left: 1.5rem;
+        padding-right: 16rem;
+        border-radius: 2rem;
+        border: none;
+        box-shadow: 0px 0px 4px $greyshadow;
+        font-size: 1.8rem;
+        width: 32rem;
+        display: block;
+        text-align: left;
+      }
+  
+      .search{
+        position: absolute;
+        top: 10%;
+        right: 0%;
+        // margin-top: 2rem;
+        font-size: 1.8rem;
+        padding: 1rem 4rem;
+        color: $white;
+        background-color: $greyshadow;
+        border-radius: 2rem;
+        width: 30%;
+      }
+  
+    }
+  
+  }
+
+
+}
+
+
+@media screen and (max-width:560px) {
+  html{
+    font-size: 60%;
+  }
+}
+
+
+@media screen and (max-width:530px) {
+  html{
+    font-size: 57.5%;
+  }
+}
+
+@media screen and (max-width:500px) {
+  html{
+    font-size: 52.5%;
+  }
+}
+
+@media screen and (max-width:440px) {
+  html{
+    font-size: 50%;
+  }
+}
+
+@media screen and (max-width:420px) {
+  html{
+    font-size: 45%;
+  }
+}
+
+@media screen and (max-width:380px) {
+  html{
+    font-size: 42.5%;
+  }
+}
+
+@media screen and (max-width:350px) {
+  html{
+    font-size: 40%;
+  }
+}
+
+@media screen and (max-width:330px) {
+  html{
+    font-size: 37.5%;
+  }
+}
+
+@media screen and (max-width:310px) {
+  html{
+    font-size: 35%;
+  }
+}
