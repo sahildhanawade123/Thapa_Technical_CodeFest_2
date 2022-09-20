@@ -2,7 +2,7 @@
 
 const nextConfig = {
   images: {
-    domains: ['www.google.com', 'assets.hostinger.com', 'www.drupal.org'],
+    domains: ['www.google.com', 'assets.hostinger.com', 'www.drupal.org', '1000logos.net', 'image.ibb.co'],
   },
   reactStrictMode: true,
   swcMinify: true,

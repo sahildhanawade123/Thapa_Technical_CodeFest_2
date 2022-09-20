@@ -2,7 +2,7 @@ import React from 'react'
 import Button from '@mui/material/Button';
 import FileDownloadDoneIcon from '@mui/icons-material/FileDownloadDone';
 
-const Poster = () => {
+const Poster = (props) => {
     return <>
         <div className="poster paddingrl">
             <h1 className='tagline'>Savings to Set Your Website in Motion</h1>
@@ -11,22 +11,22 @@ const Poster = () => {
 
             <div className="time">
                 <div className="days">
-                    <div className="daysno">01</div>
+                    <div className="daysno">{props.days}</div>
                     <div className="daystext">days</div>
                 </div>
 
                 <div className="days">
-                    <div className="daysno">22</div>
+                    <div className="daysno">{props.hours}</div>
                     <div className="daystext">hours</div>
                 </div>
 
                 <div className="days">
-                    <div className="daysno">31</div>
+                    <div className="daysno">{props.time}</div>
                     <div className="daystext">minutes</div>
                 </div>
 
                 <div className="days">
-                    <div className="daysno">16</div>
+                    <div className="daysno">{props.seconds}</div>
                     <div className="daystext">seconds</div>
                 </div>     
             </div>

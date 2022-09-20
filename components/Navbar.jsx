@@ -61,7 +61,7 @@ const Navbar = () => {
 
 
     return <>
-        <header className='paddingrl' >
+        <header className='' >
 
             <div className="navdiv1">
                 <Image src="https://www.drupal.org/files/Hostinger-logo.png" width="728" height="240" />

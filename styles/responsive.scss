@@ -41,46 +41,49 @@ $white: white;
 
 @media screen and (max-width:980px) {
   html{
-    font-size: 62.5%;
+    font-size: 45%;
   }
 
-  .marginrl {
-    margin-right: 3rem;
-    margin-left: 3rem;
-  }
-  
-  .paddingrl {
-    padding-left: 3rem;
-    padding-right: 3rem;
+  header{
+    padding: 0 3rem;
   }
 
 }
 
 
-@media screen and (max-width:660px) {
 
-  .plan{
-    grid-template-columns: repeat(1,minmax(2rem, 1fr));
-    
-    .plandetails{
-      font-size: 2rem;
-      place-self: center;
+@media screen and (max-width:900px) {
+
+  html{
+    font-size: 42.5%;
+  }
+
+  footer{
+    .footerdivs{
+      grid-template-areas: 
+      "footerdiv1 hosting domain information"
+      "footerdiv1 hosting domain information"
+      "footerdiv1 hosting legal legal"
+      "socialmedia company help help"
+      ;
     }
+  }
 
-    .planprice{
-      border: none;
-      border-top: 1px solid $greyshadow;
-      border-bottom: 1px solid $greyshadow;
 
-      .price{
-        font-size: 5rem;
-      }
+}
 
-    }
 
+@media screen and (max-width:720px) {
+
+  html{
+    font-size: 40%;
   }
 
 }
+
+
+
+
 
 
 
@@ -110,7 +113,6 @@ $white: white;
         position: absolute;
         top: 10%;
         right: 0%;
-        // margin-top: 2rem;
         font-size: 1.8rem;
         padding: 1rem 4rem;
         color: $white;
@@ -127,56 +129,191 @@ $white: white;
 }
 
 
-@media screen and (max-width:560px) {
+
+
+
+@media screen and (max-width:660px) {
+
   html{
-    font-size: 60%;
+    font-size: 55%;
   }
+
+  .paddingrl{
+    padding-right: 8rem;
+    padding-left: 8rem;
+  }
+  .marginrl{
+    margin-left: 8rem;
+    margin-right: 8rem;
+  }
+
+
+
+
+  footer{
+    .footerdivs{
+      grid-template-areas: 
+      "footerdiv1 footerdiv1"
+      "socialmedia socialmedia"
+      "hosting domain"
+      "information company"
+      "legal help"
+      ;
+    }
+  }
+
+
+
+
+  .plan{
+    grid-template-columns: repeat(1,minmax(2rem, 1fr));
+    
+    .plandetails{
+      font-size: 2rem;
+      place-self: center;
+    }
+
+    .planprice{
+      border: none;
+      border-top: 1px solid $greyshadow;
+      border-bottom: 1px solid $greyshadow;
+
+      .price{
+        font-size: 5rem;
+      }
+
+    }
+
+  }
+
+
+  .setup{
+    grid-template-columns: 1fr;
+
+    .setupdiv1{
+      grid-row: 1/2;
+    
+    .setuppara{
+      text-align: center;
+    }
+    .heading{
+      text-align: center;
+    }
+    .para{
+      text-align: center;
+    }
+    a{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+  }
+
+
+  .setupdiv2{
+    display: flex;
+    justify-content: center;
+  }
+
+
+  }
+
+
 }
+
+
+
+
+
 
 
 @media screen and (max-width:530px) {
-  html{
-    font-size: 57.5%;
+
+  .paddingrl{
+    padding-right: 4rem;
+    padding-left: 4rem;
   }
+  .marginrl{
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+
+  .navdiv2mob2{
+    min-width: 36rem !important;
+    margin-right: 5%;
+  }
+  .navdiv2linksmob2{
+    font-size: 1.8rem !important;
+  }
+
 }
 
-@media screen and (max-width:500px) {
+
+
+@media screen and (max-width:440px) {
   html{
     font-size: 52.5%;
   }
+
 }
 
-@media screen and (max-width:440px) {
+@media screen and (max-width:420px) {
   html{
     font-size: 50%;
   }
 }
 
-@media screen and (max-width:420px) {
+@media screen and (max-width:384px) {
+  html{
+    font-size: 47.5%;
+  }
+}
+
+@media screen and (max-width:366px) {
   html{
     font-size: 45%;
   }
 }
 
-@media screen and (max-width:380px) {
+@media screen and (max-width:346px) {
   html{
     font-size: 42.5%;
   }
+
+  header{
+    padding-left: 2rem;
+    padding-right: .2rem;
+  }
+
+  .paddingrl{
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+  .marginrl{
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  
 }
 
-@media screen and (max-width:350px) {
+
+@media screen and (max-width:330px) {
   html{
     font-size: 40%;
   }
 }
 
-@media screen and (max-width:330px) {
+
+@media screen and (max-width:310px) {
   html{
     font-size: 37.5%;
   }
 }
 
-@media screen and (max-width:310px) {
+
+@media screen and (max-width:290px) {
   html{
     font-size: 35%;
   }
