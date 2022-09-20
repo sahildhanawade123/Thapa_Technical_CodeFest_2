@@ -296,7 +296,7 @@ const d = ((c-Math.floor(c))*60000)/1000
 
     <div className="guarantee margintop marginrl" >
       <p className="heading" data-aos="fade-right" >30-Day Money-Back Guarantee</p>
-      <p className="para" data-aos="fade-right" >We'll refund your payment if you’re not 100% satisfied with Hostinger. No hassle, no risk.</p>
+      <p className="para" data-aos="fade-right" >We&apos;ll refund your payment if you&apos;re not 100% satisfied with Hostinger. No hassle, no risk.</p>
       <Button className="started" data-aos="fade-left" >Get Started</Button>
     </div>
 
