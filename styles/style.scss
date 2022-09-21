@@ -67,14 +67,16 @@ $darkpurple:#2F1C6A;
 
 
 header{
-  position: sticky;
+  position: fixed;
   top: 0%;
-  z-index: 2;
+  left: 0;
+  right: 0;
+  z-index: 10;
   background-color: $white;
   @include flexbetween();
   padding: 0 12rem;
-  padding-top: 1rem;
-  box-shadow: 0 0 .2rem $greyshadow;
+  padding-top: .9rem;
+  box-shadow: 0 0 .1rem $greyshadow;
 }
 
   .navdiv1{
@@ -300,14 +302,14 @@ header{
       box-shadow: 0px 0px 2px $greyshadow;
       border-radius: 1rem;
       transition: all 0.3s ease-out;
-      min-width: 45rem;
+      min-width: 70rem;
       opacity: 0%;
       
     .navdiv2linksmob2{
       cursor: pointer;
       color: $grey;
       @include flexbetween();
-      font-size: 2.5rem;
+      font-size: 3rem;
       white-space: nowrap;
       // box-shadow: 0px 1px 1px $greyshadow;
       border-bottom: 1px solid $greyshadow;
@@ -340,7 +342,7 @@ header{
       }
 
       .navdiv2linksmob2submenu{
-        font-size: 2.2rem;
+        font-size: 3.5rem;
         margin-left: 2rem;
       }
 
@@ -356,8 +358,13 @@ header{
   color: white;
   @include flexcenter();
   flex-direction: column;
-  padding: 5rem 0rem;
+  padding-top: 11.5rem;
+  padding-bottom: 5rem;
   text-align: center;
+
+  .humansimg{
+    width: 30rem;
+  }
 
   .tagline{
     font-size: 2.5rem;
@@ -436,7 +443,9 @@ header{
     padding: 1rem 10rem;
     border-radius: 3rem;
     color: $white;
+    border: none;
     background-color: #fc5185;
+    z-index: 2;
   }
 
 
@@ -470,6 +479,7 @@ header{
   font-size: 4rem;
   font-weight: bolder;
   color: $darkpurple;
+  z-index: 3;
 }
 
 .para{
@@ -578,10 +588,10 @@ header{
   grid-template-columns: repeat(auto-fit, minmax(35rem, auto));
   grid-gap: 1.5rem 1rem;
   place-content: center;
+  padding: 2rem;
 
   .service{
     @include flexcenter();
-    // background-color: rebeccapurple;
     justify-content: flex-start;
     font-size: 2.2rem;
     color: $darkpurple;
