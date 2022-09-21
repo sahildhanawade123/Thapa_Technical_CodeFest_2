@@ -13,8 +13,7 @@ const Layout = ({ children })=> {
       offset: 80,
       duration: 600,
       easing: 'ease-in-out',
-      // delay: 1000,
-      // once: true
+      once: true
   })
 
   },[])

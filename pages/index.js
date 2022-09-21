@@ -123,9 +123,9 @@ const d = ((c-Math.floor(c))*60000)/1000
       <p className="service" data-aos="fade-left"><Image src="https://assets.hostinger.com/images/homepage2021/services/free-migration-913e6bfab2.svg" width="42" height="42" /> Free Migration</p>
       <p className="service" data-aos="fade-right"><Image src="https://assets.hostinger.com/images/homepage2021/services/backups-2d6e895cf1.svg" width="42" height="42" /> Automated backups</p>
       <p className="service" data-aos="fade-left"><Image src="https://assets.hostinger.com/images/homepage2021/services/cloudflare-d1bcbdabc9.svg" width="42" height="42" /> DDoS Protection</p>
-      <p className="service" data-aos="fade-right"><Image src="	https://assets.hostinger.com/images/homepage2021/services/php-speed-boost-f7850027dc.svg" width="42" height="42" /> PHP Speed Boost</p>
+      <p className="service" data-aos="fade-right"><Image src="https://assets.hostinger.com/images/homepage2021/services/php-speed-boost-f7850027dc.svg" width="42" height="42" /> PHP Speed Boost</p>
       <p className="service" data-aos="fade-left"><Image src="https://assets.hostinger.com/images/homepage2021/services/litespeed-wp-module-e0e9453f3c.svg" width="42" height="42" /> LiteSpeed Cache Plugin</p>
-      <p className="service" data-aos="fade-right"><Image src="	https://assets.hostinger.com/images/homepage2021/services/wp-installation-2161a49ee3.svg" width="42" height="42" /> One-Click WorkPress Installation</p>
+      <p className="service" data-aos="fade-right"><Image src="https://assets.hostinger.com/images/homepage2021/services/wp-installation-2161a49ee3.svg" width="42" height="42" /> One-Click WorkPress Installation</p>
       <p className="service" data-aos="fade-left"><Image src="https://assets.hostinger.com/images/homepage2021/services/tech-support-ebf15a3d83.svg" width="42" height="42" /> 24/7/365 Tech Support</p>
       <p className="service" data-aos="fade-right"><Image src="https://assets.hostinger.com/images/homepage2021/services/script-installer-6fe9e03c5c.svg" width="42" height="42" /> Auto Script Installer</p>
       <p className="service" data-aos="fade-left"><Image src="https://assets.hostinger.com/images/homepage2021/services/uptime-guarantee-1e9eae1cb0.svg" width="42" height="42" /> 99.9% Uptime Guarantee</p>
@@ -174,7 +174,7 @@ const d = ((c-Math.floor(c))*60000)/1000
       </div>
 
       <div className="setupdiv2" data-aos="fade-left">
-        <Image src="	https://assets.hostinger.com/images/homepage2020/easy-to-setup-mobile-5c868e689f.jpg"
+        <Image src="https://assets.hostinger.com/images/homepage2020/easy-to-setup-mobile-5c868e689f.jpg"
           width="550" height="350"
         />
       </div>
@@ -212,7 +212,7 @@ const d = ((c-Math.floor(c))*60000)/1000
       </div>
 
       <div className="setupdiv2" data-aos="fade-left">
-        <Image src="	https://assets.hostinger.com/images/homepage2020/wordpress-made-easy-mobile-5f9e3f7598.jpg"
+        <Image src="https://assets.hostinger.com/images/homepage2020/wordpress-made-easy-mobile-5f9e3f7598.jpg"
           width="510" height="321"
         />
       </div>
@@ -224,7 +224,7 @@ const d = ((c-Math.floor(c))*60000)/1000
     <div className="setup marginrl mediummargintop">
 
       <div className="setupdiv2" data-aos="fade-right">
-        <Image src="	https://assets.hostinger.com/images/homepage2020/chat-support@2x-bb1e2e3911.png"
+        <Image src="https://assets.hostinger.com/images/homepage2020/chat-support@2x-bb1e2e3911.png"
           width="1080" height="700"
         />
       </div>
@@ -250,7 +250,7 @@ const d = ((c-Math.floor(c))*60000)/1000
       </div>
 
       <div className="setupdiv2" data-aos="fade-left">
-        <Image src="	https://assets.hostinger.com/images/homepage2020/micro-large-scale-mobile-4db284d67e.jpg"
+        <Image src="https://assets.hostinger.com/images/homepage2020/micro-large-scale-mobile-4db284d67e.jpg"
           width="540" height="350"
         />
       </div>
@@ -269,7 +269,7 @@ const d = ((c-Math.floor(c))*60000)/1000
 
       <div className="setupdiv2 setupdiv22" data-aos="fade-right">
         {/* <video class="play-video-on-scroll d-none d-xl-block lazy-load-poster lazy-loaded-video" muted="muted" preload="metadata" width="150%" height="100%" data-poster="https://assets.hostinger.com/images/homepage2020/control-panel-section/hpanel-img-b7635fbb82.png" poster="https://assets.hostinger.com/images/homepage2020/control-panel-section/hpanel-img-b7635fbb82.png"><source src="https://assets.hostinger.com/videos/homepage2020/user-friendly-cp-2020-7ab2c70b24.mp4" type="video/mp4"></source></video> */}
-        <Image src="	https://assets.hostinger.com/images/homepage2020/control-panel-section/panel-img@2x-5614dc0a34.png" width="559" height="856" />
+        <Image src="https://assets.hostinger.com/images/homepage2020/control-panel-section/panel-img@2x-5614dc0a34.png" width="559" height="856" />
       </div>
 
       <div className="setupdiv1" data-aos="fade-left" >
@@ -283,7 +283,7 @@ const d = ((c-Math.floor(c))*60000)/1000
         <p className="para">A wide variety of tools to satisfy advanced user and website developer needs.</p>
 
 
-        <div className="setupdiv2"><Image src="	https://assets.hostinger.com/images/homepage2020/control-panel-section/wp-icon-9be267d135.svg" width="24" height="24" /></div>
+        <div className="setupdiv2"><Image src="https://assets.hostinger.com/images/homepage2020/control-panel-section/wp-icon-9be267d135.svg" width="24" height="24" /></div>
         <p className="heading">WordPress Optimized</p>
         <p className="para">Get more speed, better SEO, visitor retention and conversions with our custom-built WP optimization stack and LiteSpeed cache.</p>
 
