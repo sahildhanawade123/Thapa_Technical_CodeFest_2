@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Thapa Technical CodeFest 2 - Improved version of Hostinger website
 
 ## **Website** :- **[https://thapa-technical-codefest-2.vercel.app/](https://thapa-technical-codefest-2.vercel.app/ "https://thapa-technical-codefest-2.vercel.app/")**
@@ -27,3 +28,6 @@ Improved footer layout for small devices like mobile
 [![Youtube](https://thapa-technical-codefest-2.vercel.app/images/youtube.png)](https://m.youtube.com/c/sahildhanawade "https://m.youtube.com/c/sahildhanawade")
 
 
+=======
+
+>>>>>>> e0fafcef34cea8ba45fe98fcdd619a31318abeb8
