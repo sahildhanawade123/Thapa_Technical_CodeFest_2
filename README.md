@@ -1,6 +1,9 @@
 
 # Thapa Technical CodeFest 2 - Improved version of Hostinger website
 
+![Hostinger](src=https://thapa-technical-codefest-2.vercel.app/images/homepage.png)
+
+
 ## **Website** :- **[https://thapa-technical-codefest-2.vercel.app/](https://thapa-technical-codefest-2.vercel.app/ "https://thapa-technical-codefest-2.vercel.app/")**
 
 
@@ -22,6 +25,6 @@
 
 ## **Connect with Me**
 
-[<img style="margin-right: 10px" src=https://thapa-technical-codefest-2.vercel.app/images/instagram.png height=30>](https://m.youtube.com/c/sahildhanawade)[<img style="margin-right: 10px" src=https://thapa-technical-codefest-2.vercel.app/images/linkedin.png height=30>](https://m.youtube.com/c/sahildhanawade)[<img src=https://thapa-technical-codefest-2.vercel.app/images/youtube.png height=30>](https://m.youtube.com/c/sahildhanawade)
+[<img style="margin-right: 1rem" src=https://thapa-technical-codefest-2.vercel.app/images/instagram.png height=30>](https://m.youtube.com/c/sahildhanawade)[<img style="margin-right: 1rem" src=https://thapa-technical-codefest-2.vercel.app/images/linkedin.png height=30>](https://m.youtube.com/c/sahildhanawade)[<img src=https://thapa-technical-codefest-2.vercel.app/images/youtube.png height=30>](https://m.youtube.com/c/sahildhanawade)
 
 ### **Email** :- **[sahildhanavade769@gmail.com](mailto:sahildhanavade769@gmail.com)**

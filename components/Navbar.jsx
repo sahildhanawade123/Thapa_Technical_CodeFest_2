@@ -143,7 +143,7 @@ const Navbar = () => {
 
 
 
-                        <Button className="navdiv2links login" onClick={() => router.push('/')} ><VpnKeyIcon className="navarrow" />Login</Button>
+                        <button className="navdiv2links login" onClick={() => router.push('/')} ><VpnKeyIcon className="navarrow" />Login</button>
                     </ul>
             
 

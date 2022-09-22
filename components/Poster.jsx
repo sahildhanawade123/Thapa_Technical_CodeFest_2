@@ -1,5 +1,4 @@
 import React from 'react'
-import Button from '@mui/material/Button';
 import FileDownloadDoneIcon from '@mui/icons-material/FileDownloadDone';
 import Image from 'next/image'
 
@@ -8,11 +7,11 @@ const Poster = (props) => {
         <div className="poster paddingrl">
 
             <div className="humansimg" >
-            <Image src="/images/phoneperson.png" width="400" height="303" />
+            <Image src="/images/phoneperson.png" loading='eager' width="400" height="303" />
             </div>
 
             <h1 className='tagline'>Savings to Set Your Website in Motion</h1>
-            <h1 className="price"> 149.00</h1>
+            <p className="price"> 149.00</p>
             <p className="para">Get things moving with a free domain, lifetime SSL, and DDos protection included with a four-year subscription</p>
 
             <div className="time">
@@ -39,7 +38,7 @@ const Poster = (props) => {
 
 
 
-            <Button className='getstarted'>Get Started</Button>
+            <button className='getstarted'>Get Started</button>
 
             <p className="endtextline"><FileDownloadDoneIcon className='texticon' />Get exclusive 30-day money-back guarantee</p>
 

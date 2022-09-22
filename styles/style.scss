@@ -10,7 +10,6 @@ html {
   font-size: 62.5%;
 }
 
-
 .layout {
   display: flex;
   flex-direction: column;
@@ -162,7 +161,8 @@ header{
       transform: translateY(-11%);
       padding: .4rem 1.5rem;
       color: $white;
-      box-shadow: 0px 0px 2px $greyshadow;
+      // box-shadow: 0px 0px 2px $greyshadow;
+      box-shadow: 1px 2px 3px $greyshadow;
       border-radius: 1.4rem;
       font-size: 1.6rem;
       text-transform: capitalize;
@@ -212,15 +212,15 @@ header{
 
 
   .login{
-    // background-color: rebeccapurple;
+    @include flexbetween();
     padding: .4rem 2rem;
-    // color: $white;
-    box-shadow: 0px 0px 4px $greyshadow;
+    border: none;
+    box-shadow: 1px 2px 3px $greyshadow;
     border-radius: 1.4rem;
-    font-size: 2rem;
+    font-size: 2.2rem;
     text-transform: capitalize;
     font-weight: 600;
-    color: rgb(87, 84, 84);
+    color: $grey;
 
     .navarrow{
       margin-right: .6rem;
@@ -309,7 +309,7 @@ header{
       cursor: pointer;
       color: $grey;
       @include flexbetween();
-      font-size: 3rem;
+      font-size: 2.8rem;
       white-space: nowrap;
       // box-shadow: 0px 1px 1px $greyshadow;
       border-bottom: 1px solid $greyshadow;
@@ -342,7 +342,7 @@ header{
       }
 
       .navdiv2linksmob2submenu{
-        font-size: 3.5rem;
+        font-size: 3.2rem;
         margin-left: 2rem;
       }
 
@@ -437,10 +437,10 @@ header{
 
   .getstarted{
     margin-top: 3rem;
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: bold;
     text-transform: capitalize;
-    padding: 1rem 10rem;
+    padding: 1rem 8rem;
     border-radius: 3rem;
     color: $white;
     border: none;
