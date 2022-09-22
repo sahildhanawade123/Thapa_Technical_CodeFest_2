@@ -61,10 +61,11 @@ const Navbar = () => {
 
 
     return <>
-        <header className='' >
-
+        <header>
             <div className="navdiv1">
+                <Link href="/" >
                 <Image src="https://www.drupal.org/files/Hostinger-logo.png" width="728" height="240" alt="Hostinger" />
+                </Link>
             </div>
 
             {!mobMode ? <ul className="navdiv2">

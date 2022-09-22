@@ -80,6 +80,7 @@ header{
 
   .navdiv1{
     width: 20rem;
+    cursor: pointer
   }
 
   .navdiv2{
@@ -161,7 +162,6 @@ header{
       transform: translateY(-11%);
       padding: .4rem 1.5rem;
       color: $white;
-      // box-shadow: 0px 0px 2px $greyshadow;
       box-shadow: 1px 2px 3px $greyshadow;
       border-radius: 1.4rem;
       font-size: 1.6rem;
@@ -221,7 +221,8 @@ header{
     text-transform: capitalize;
     font-weight: 600;
     color: $grey;
-
+    cursor: pointer;
+    
     .navarrow{
       margin-right: .6rem;
       font-size: 2.5rem
@@ -446,6 +447,7 @@ header{
     border: none;
     background-color: #fc5185;
     z-index: 2;
+    cursor: pointer;
   }
 
 
