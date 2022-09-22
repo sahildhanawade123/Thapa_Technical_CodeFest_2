@@ -1,7 +1,9 @@
 
 # Thapa Technical CodeFest 2 - Improved version of Hostinger website
 
-![Hostinger](src=https://thapa-technical-codefest-2.vercel.app/images/homepage.png)
+
+
+<img style="margin-right: 1rem" src=https://thapa-technical-codefest-2.vercel.app/images/homepage.png>
 
 
 ## **Website** :- **[https://thapa-technical-codefest-2.vercel.app/](https://thapa-technical-codefest-2.vercel.app/ "https://thapa-technical-codefest-2.vercel.app/")**
