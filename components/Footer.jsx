@@ -10,18 +10,18 @@ const Footer = () => {
 
       <div className="footerdiv1">
         <div className="footerdiv1img">
-          <Image src="https://www.drupal.org/files/Hostinger-logo.png" width="728" height="240" />
+          <Image src="https://www.drupal.org/files/Hostinger-logo.png" width="728" height="240" alt="hostinger" />
         </div>
 
         <p className="para">We are a web hosting company with a mission to help everyone who goes online succeed.</p>
         <p className="para">We accomplish this by continuously developing server technology, giving expert assistance, and ensuring a flawless online website hosting experience.</p>
 
         <div className="paymentcards">
-          <Image src="https://assets.hostinger.com/images/payments/homepage-2020-payments/visa-5d68dadf24.png" width="60" height="40" />
-          <Image src="https://assets.hostinger.com/images/payments/homepage-2020-payments/mastercard-ca75c7f8d3.png" width="60" height="40" />
-          <Image src="https://assets.hostinger.com/images/payments/homepage-2020-payments/discover-1e5edf3f39.png" width="60" height="40" />
-          <Image src="https://assets.hostinger.com/images/payments/homepage-2020-payments/dinersclub-3f02e2deec.png" width="60" height="40" />
-          <Image src="https://assets.hostinger.com/images/payments/homepage-2020-payments/rupay-2bad18f6df.png" width="60" height="40" />
+          <Image src="https://assets.hostinger.com/images/payments/homepage-2020-payments/visa-5d68dadf24.png" width="60" height="40" alt="visa" />
+          <Image src="https://assets.hostinger.com/images/payments/homepage-2020-payments/mastercard-ca75c7f8d3.png" width="60" height="40" alt="mastercard" />
+          <Image src="https://assets.hostinger.com/images/payments/homepage-2020-payments/discover-1e5edf3f39.png" width="60" height="40" alt="discover" />
+          <Image src="https://assets.hostinger.com/images/payments/homepage-2020-payments/dinersclub-3f02e2deec.png" width="60" height="40" alt="dinersclub" />
+          <Image src="https://assets.hostinger.com/images/payments/homepage-2020-payments/rupay-2bad18f6df.png" width="60" height="40" alt="rupay" />
         </div>
           <Link href="/" >And More</Link>
       </div>
@@ -99,10 +99,10 @@ const Footer = () => {
 
 
       <div className="socialmedia">
-      <Link target="_blank" href="https://www.linkedin.com/in/sahil-dhanavade-110a49168/" ><Image src="https://assets.hostinger.com/images/footer/socials/2020/linked-in-6483ac5eaf.svg" width="30" height="30" /></Link>
-      <Link target="_blank" href="https://www.facebook.com/people/1markers/100083320936291/" ><Image src="https://assets.hostinger.com/images/footer/socials/2020/facebook-aae08bebe5.svg" width="30" height="30" /></Link>
-      <Link target="_blank" href="https://www.instagram.com/1markers/" ><Image src="https://assets.hostinger.com/images/footer/socials/2020/instagram-19e7bf8e7d.svg" width="30" height="30" /></Link>
-      <Link target="_blank" href="https://www.youtube.com/c/sahildhanawade" ><Image src="https://assets.hostinger.com/images/footer/socials/2020/youtube-10b297f40e.svg" width="30" height="30" /></Link>
+      <Link target="_blank" href="https://www.linkedin.com/in/sahil-dhanavade-110a49168/" ><Image src="https://assets.hostinger.com/images/footer/socials/2020/linked-in-6483ac5eaf.svg" width="30" height="30" alt="linkedin" /></Link>
+      <Link target="_blank" href="https://www.facebook.com/people/1markers/100083320936291/" ><Image src="https://assets.hostinger.com/images/footer/socials/2020/facebook-aae08bebe5.svg" width="30" height="30" alt="facebook" /></Link>
+      <Link target="_blank" href="https://www.instagram.com/1markers/" ><Image src="https://assets.hostinger.com/images/footer/socials/2020/instagram-19e7bf8e7d.svg" width="30" height="30" alt="instagram" /></Link>
+      <Link target="_blank" href="https://www.youtube.com/c/sahildhanawade" ><Image src="https://assets.hostinger.com/images/footer/socials/2020/youtube-10b297f40e.svg" width="30" height="30" alt="youtube" /></Link>
       </div>
 
       </div>
@@ -114,9 +114,9 @@ const Footer = () => {
         Email : <a href="mailto:sahildhanavade769@gmail.com" >sahildhanavade769@gmail.com</a>
         
         <div className="socialmediapersonal">
-      <Link target="_blank" href="https://www.linkedin.com/in/sahil-dhanavade-110a49168/" ><Image src="https://assets.hostinger.com/images/footer/socials/2020/linked-in-6483ac5eaf.svg" width="30" height="30" /></Link>
-      <Link target="_blank" href="https://www.instagram.com/sahil_mtbfreestyle/" ><Image src="https://assets.hostinger.com/images/footer/socials/2020/instagram-19e7bf8e7d.svg" width="30" height="30" /></Link>
-      <Link target="_blank" href="https://www.youtube.com/c/sahildhanawade" ><Image src="https://assets.hostinger.com/images/footer/socials/2020/youtube-10b297f40e.svg" width="30" height="30" /></Link>
+      <Link target="_blank" href="https://www.linkedin.com/in/sahil-dhanavade-110a49168/" ><Image src="https://assets.hostinger.com/images/footer/socials/2020/linked-in-6483ac5eaf.svg" width="30" height="30" alt="linkedin" /></Link>
+      <Link target="_blank" href="https://www.instagram.com/sahil_mtbfreestyle/" ><Image src="https://assets.hostinger.com/images/footer/socials/2020/instagram-19e7bf8e7d.svg" width="30" height="30" alt="instagram" /></Link>
+      <Link target="_blank" href="https://www.youtube.com/c/sahildhanawade" ><Image src="https://assets.hostinger.com/images/footer/socials/2020/youtube-10b297f40e.svg" width="30" height="30" alt="youtube" /></Link>
       </div>
         </div>
     </footer>

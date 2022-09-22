@@ -73,13 +73,13 @@ const Home = ({ currentDate }) => {
 
     <div className="trustsignals">
       <div className="image">
-        <Image src="/images/wordpress.svg" height="36" width="163" />
+        <Image src="/images/wordpress.svg" height="36" width="163" alt="wordpress" />
       </div>
       <div className="image">
-        <Image src="/images/litespeed.svg" height="35" width="137" />
+        <Image src="/images/litespeed.svg" height="35" width="137" alt="litespeed" />
       </div>
       <div className="image">
-        <Image src="/images/cloudflare.svg" height="24" width="219" />
+        <Image src="/images/cloudflare.svg" height="24" width="219" alt="cloudflare" />
       </div>
     </div>
 
@@ -119,18 +119,18 @@ const Home = ({ currentDate }) => {
       <h2 className="heading margintop" data-aos="fade-right" >Our Services Include:</h2>
 
       <div className="services marginrl">
-        <div className="service" data-aos="fade-right"><Image src="https://assets.hostinger.com/images/homepage2021/services/free-ssl-c672bc7cfb.svg" width="42" height="42" /> FreeSSl</div>
-        <div className="service" data-aos="fade-left"><Image src="https://assets.hostinger.com/images/homepage2021/services/access-management-01f91d3436.svg" width="42" height="42" /> Access Management</div>
-        <div className="service" data-aos="fade-right"><Image src="https://assets.hostinger.com/images/homepage2021/services/ecommerce-c7adac5be7.svg" width="42" height="42" /> eCommerce Optimization</div>
-        <div className="service" data-aos="fade-left"><Image src="https://assets.hostinger.com/images/homepage2021/services/free-migration-913e6bfab2.svg" width="42" height="42" /> Free Migration</div>
-        <div className="service" data-aos="fade-right"><Image src="https://assets.hostinger.com/images/homepage2021/services/backups-2d6e895cf1.svg" width="42" height="42" /> Automated backups</div>
-        <div className="service" data-aos="fade-left"><Image src="https://assets.hostinger.com/images/homepage2021/services/cloudflare-d1bcbdabc9.svg" width="42" height="42" /> DDoS Protection</div>
-        <div className="service" data-aos="fade-right"><Image src="https://assets.hostinger.com/images/homepage2021/services/php-speed-boost-f7850027dc.svg" width="42" height="42" /> PHP Speed Boost</div>
-        <div className="service" data-aos="fade-left"><Image src="https://assets.hostinger.com/images/homepage2021/services/litespeed-wp-module-e0e9453f3c.svg" width="42" height="42" /> LiteSpeed Cache Plugin</div>
-        <div className="service" data-aos="fade-right"><Image src="https://assets.hostinger.com/images/homepage2021/services/wp-installation-2161a49ee3.svg" width="42" height="42" /> One-Click WorkPress Installation</div>
-        <div className="service" data-aos="fade-left"><Image src="https://assets.hostinger.com/images/homepage2021/services/tech-support-ebf15a3d83.svg" width="42" height="42" /> 24/7/365 Tech Support</div>
-        <div className="service" data-aos="fade-right"><Image src="https://assets.hostinger.com/images/homepage2021/services/script-installer-6fe9e03c5c.svg" width="42" height="42" /> Auto Script Installer</div>
-        <div className="service" data-aos="fade-left"><Image src="https://assets.hostinger.com/images/homepage2021/services/uptime-guarantee-1e9eae1cb0.svg" width="42" height="42" /> 99.9% Uptime Guarantee</div>
+        <div className="service" data-aos="fade-right"><Image src="https://assets.hostinger.com/images/homepage2021/services/free-ssl-c672bc7cfb.svg" width="42" height="42" alt="free ssl" /> FreeSSl</div>
+        <div className="service" data-aos="fade-left"><Image src="https://assets.hostinger.com/images/homepage2021/services/access-management-01f91d3436.svg" width="42" height="42" alt="access management" /> Access Management</div>
+        <div className="service" data-aos="fade-right"><Image src="https://assets.hostinger.com/images/homepage2021/services/ecommerce-c7adac5be7.svg" width="42" height="42" alt="ecommerce" /> eCommerce Optimization</div>
+        <div className="service" data-aos="fade-left"><Image src="https://assets.hostinger.com/images/homepage2021/services/free-migration-913e6bfab2.svg" width="42" height="42" alt="free-migration" /> Free Migration</div>
+        <div className="service" data-aos="fade-right"><Image src="https://assets.hostinger.com/images/homepage2021/services/backups-2d6e895cf1.svg" width="42" height="42" alt="backups" /> Automated backups</div>
+        <div className="service" data-aos="fade-left"><Image src="https://assets.hostinger.com/images/homepage2021/services/cloudflare-d1bcbdabc9.svg" width="42" height="42" alt="cloudflare" /> DDoS Protection</div>
+        <div className="service" data-aos="fade-right"><Image src="https://assets.hostinger.com/images/homepage2021/services/php-speed-boost-f7850027dc.svg" width="42" height="42" alt="speed boost" /> PHP Speed Boost</div>
+        <div className="service" data-aos="fade-left"><Image src="https://assets.hostinger.com/images/homepage2021/services/litespeed-wp-module-e0e9453f3c.svg" width="42" height="42" alt="litespeed" /> LiteSpeed Cache Plugin</div>
+        <div className="service" data-aos="fade-right"><Image src="https://assets.hostinger.com/images/homepage2021/services/wp-installation-2161a49ee3.svg" width="42" height="42" alt="installation" /> One-Click WorkPress Installation</div>
+        <div className="service" data-aos="fade-left"><Image src="https://assets.hostinger.com/images/homepage2021/services/tech-support-ebf15a3d83.svg" width="42" height="42" alt="tech support" /> 24/7/365 Tech Support</div>
+        <div className="service" data-aos="fade-right"><Image src="https://assets.hostinger.com/images/homepage2021/services/script-installer-6fe9e03c5c.svg" width="42" height="42" alt="script installer" /> Auto Script Installer</div>
+        <div className="service" data-aos="fade-left"><Image src="https://assets.hostinger.com/images/homepage2021/services/uptime-guarantee-1e9eae1cb0.svg" width="42" height="42" alt="guarantee" /> 99.9% Uptime Guarantee</div>
       </div>
     </article>
 
@@ -149,18 +149,18 @@ const Home = ({ currentDate }) => {
       <h2 className="heading marginrl margintop">Top Companies using our Services</h2>
 
       <div className="companies marginrl">
-        <Image data-aos-duration={700} data-aos="zoom-in-up" src="/images/1markers.svg" width="471" height="122" />
-        <Image data-aos-duration={700} data-aos="zoom-in-up" src="https://image.ibb.co/h8HYtz/tt_1.png" width="500" height="500" />
-        <Image data-aos-duration={700} data-aos="zoom-in-up" src="https://1000logos.net/wp-content/uploads/2016/10/Amazon-Logo-1024x640.png" width="500" height="312" />
-        <Image data-aos-duration={700} data-aos="zoom-in-up" src="/images/1markers.svg" width="471" height="122" />
-        <Image data-aos-duration={700} data-aos="zoom-in-up" src="https://1000logos.net/wp-content/uploads/2017/02/YouTube-Logosu-500x281.png" width="500" height="281" />
-        <Image data-aos-duration={700} data-aos="zoom-in-up" src="/images/1markers.svg" width="471" height="122" />
-        <Image data-aos-duration={700} data-aos="zoom-in-up" src="https://image.ibb.co/h8HYtz/tt_1.png" width="500" height="500" />
-        <Image data-aos-duration={700} data-aos="zoom-in-up" src="https://1000logos.net/wp-content/uploads/2016/10/Amazon-Logo-1024x640.png" width="500" height="312" />
-        <Image data-aos-duration={700} data-aos="zoom-in-up" src="/images/1markers.svg" width="471" height="122" />
-        <Image data-aos-duration={700} data-aos="zoom-in-up" src="https://image.ibb.co/h8HYtz/tt_1.png" width="500" height="500" />
-        <Image data-aos-duration={700} data-aos="zoom-in-up" src="https://1000logos.net/wp-content/uploads/2016/10/Amazon-Logo-1024x640.png" width="500" height="312" />
-        <Image data-aos-duration={700} data-aos="zoom-in-up" src="https://1000logos.net/wp-content/uploads/2017/02/YouTube-Logosu-500x281.png" width="500" height="281" />
+        <Image data-aos-duration={700} data-aos="zoom-in-up" src="/images/1markers.svg" width="471" height="122" alt="www.1markers.com" />
+        <Image data-aos-duration={700} data-aos="zoom-in-up" src="https://image.ibb.co/h8HYtz/tt_1.png" width="500" height="500" alt="thapa technical" />
+        <Image data-aos-duration={700} data-aos="zoom-in-up" src="https://1000logos.net/wp-content/uploads/2016/10/Amazon-Logo-1024x640.png" width="500" height="312" alt='amozon' />
+        <Image data-aos-duration={700} data-aos="zoom-in-up" src="/images/1markers.svg" width="471" height="122" alt="www.1markers.com" />
+        <Image data-aos-duration={700} data-aos="zoom-in-up" src="https://1000logos.net/wp-content/uploads/2017/02/YouTube-Logosu-500x281.png" width="500" height="281" alt='youtube' />
+        <Image data-aos-duration={700} data-aos="zoom-in-up" src="/images/1markers.svg" width="471" height="122" alt="www.1markers.com" />
+        <Image data-aos-duration={700} data-aos="zoom-in-up" src="https://image.ibb.co/h8HYtz/tt_1.png" width="500" height="500" alt="thapa technical" />
+        <Image data-aos-duration={700} data-aos="zoom-in-up" src="https://1000logos.net/wp-content/uploads/2016/10/Amazon-Logo-1024x640.png" width="500" height="312" alt='amozon' />
+        <Image data-aos-duration={700} data-aos="zoom-in-up" src="/images/1markers.svg" width="471" height="122" alt="www.1markers.com" />
+        <Image data-aos-duration={700} data-aos="zoom-in-up" src="https://image.ibb.co/h8HYtz/tt_1.png" width="500" height="500" alt="thapa technical" />
+        <Image data-aos-duration={700} data-aos="zoom-in-up" src="https://1000logos.net/wp-content/uploads/2016/10/Amazon-Logo-1024x640.png" width="500" height="312" alt='amozon' />
+        <Image data-aos-duration={700} data-aos="zoom-in-up" src="https://1000logos.net/wp-content/uploads/2017/02/YouTube-Logosu-500x281.png" width="500" height="281" alt="youtube" />
       </div>
 
     </article>
@@ -178,9 +178,7 @@ const Home = ({ currentDate }) => {
       </article>
 
       <div className="setupdiv2" data-aos="fade-left">
-        <Image src="https://assets.hostinger.com/images/homepage2020/easy-to-setup-mobile-5c868e689f.jpg"
-          width="550" height="350"
-        />
+        <Image src="https://assets.hostinger.com/images/homepage2020/easy-to-setup-mobile-5c868e689f.jpg" width="550" height="350" alt='easy to setup' />
       </div>
     </div>
 
@@ -191,9 +189,7 @@ const Home = ({ currentDate }) => {
     <div className="setup marginrl mediummargintop">
 
       <div className="setupdiv2" data-aos="fade-right">
-        <Image src="https://assets.hostinger.com/images/homepage2020/simply-fast-websites-mobile-913c582753.jpg"
-          width="560" height="429"
-        />
+        <Image src="https://assets.hostinger.com/images/homepage2020/simply-fast-websites-mobile-913c582753.jpg" width="560" height="429" alt='dashboard' />
       </div>
 
       <article className="setupdiv1" data-aos="fade-left">
@@ -216,9 +212,7 @@ const Home = ({ currentDate }) => {
       </article>
 
       <div className="setupdiv2" data-aos="fade-left">
-        <Image src="https://assets.hostinger.com/images/homepage2020/wordpress-made-easy-mobile-5f9e3f7598.jpg"
-          width="510" height="321"
-        />
+        <Image src="https://assets.hostinger.com/images/homepage2020/wordpress-made-easy-mobile-5f9e3f7598.jpg" width="510" height="321" alt='wordpress' />
       </div>
 
     </div>
@@ -228,9 +222,7 @@ const Home = ({ currentDate }) => {
     <div className="setup marginrl mediummargintop">
 
       <div className="setupdiv2" data-aos="fade-right">
-        <Image src="https://assets.hostinger.com/images/homepage2020/chat-support@2x-bb1e2e3911.png"
-          width="1080" height="700"
-        />
+        <Image src="https://assets.hostinger.com/images/homepage2020/chat-support@2x-bb1e2e3911.png" width="1080" height="700" alt='chat support'/>
       </div>
 
       <article className="setupdiv1" data-aos="fade-left">
@@ -254,9 +246,7 @@ const Home = ({ currentDate }) => {
       </article>
 
       <div className="setupdiv2" data-aos="fade-left">
-        <Image src="https://assets.hostinger.com/images/homepage2020/micro-large-scale-mobile-4db284d67e.jpg"
-          width="540" height="350"
-        />
+        <Image src="https://assets.hostinger.com/images/homepage2020/micro-large-scale-mobile-4db284d67e.jpg" width="540" height="350" alt='growth' />
       </div>
 
     </div>
@@ -271,21 +261,21 @@ const Home = ({ currentDate }) => {
 
         <div className="setupdiv2 setupdiv22" data-aos="fade-right">
           {/* <video class="play-video-on-scroll d-none d-xl-block lazy-load-poster lazy-loaded-video" muted="muted" preload="metadata" width="150%" height="100%" data-poster="https://assets.hostinger.com/images/homepage2020/control-panel-section/hpanel-img-b7635fbb82.png" poster="https://assets.hostinger.com/images/homepage2020/control-panel-section/hpanel-img-b7635fbb82.png"><source src="https://assets.hostinger.com/videos/homepage2020/user-friendly-cp-2020-7ab2c70b24.mp4" type="video/mp4"></source></video> */}
-          <Image src="https://assets.hostinger.com/images/homepage2020/control-panel-section/panel-img@2x-5614dc0a34.png" width="559" height="856" />
+          <Image src="https://assets.hostinger.com/images/homepage2020/control-panel-section/panel-img@2x-5614dc0a34.png" width="559" height="856" alt='hostinger control panel' />
         </div>
 
         <div className="setupdiv1" data-aos="fade-left" >
-          <div className="setupdiv2"><Image src="https://assets.hostinger.com/images/homepage2020/control-panel-section/user-icon-923934a391.svg" width="20" height="24" /></div>
+          <div className="setupdiv2"><Image src="https://assets.hostinger.com/images/homepage2020/control-panel-section/user-icon-923934a391.svg" width="20" height="24" alt='person' /></div>
           <h3 className="heading">Ease of Use</h3>
           <p className="para">Hostinger Panel is extremely user-friendly and can be used by those with little experience in website development.</p>
 
 
-          <div className="setupdiv2"><Image src="https://assets.hostinger.com/images/homepage2020/control-panel-section/chart-icon-3472a5b9a8.svg" width="27" height="27" /></div>
+          <div className="setupdiv2"><Image src="https://assets.hostinger.com/images/homepage2020/control-panel-section/chart-icon-3472a5b9a8.svg" width="27" height="27" alt='growth' /></div>
           <h3 className="heading">Powerful</h3>
           <p className="para">A wide variety of tools to satisfy advanced user and website developer needs.</p>
 
 
-          <div className="setupdiv2"><Image src="https://assets.hostinger.com/images/homepage2020/control-panel-section/wp-icon-9be267d135.svg" width="24" height="24" /></div>
+          <div className="setupdiv2"><Image src="https://assets.hostinger.com/images/homepage2020/control-panel-section/wp-icon-9be267d135.svg" width="24" height="24" alt='wordpress' /></div>
           <h3 className="heading">WordPress Optimized</h3>
           <p className="para">Get more speed, better SEO, visitor retention and conversions with our custom-built WP optimization stack and LiteSpeed cache.</p>
 

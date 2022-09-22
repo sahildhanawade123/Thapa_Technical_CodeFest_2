@@ -7,7 +7,7 @@ const Poster = (props) => {
         <div className="poster paddingrl">
 
             <div className="humansimg" >
-            <Image src="/images/phoneperson.png" loading='eager' width="400" height="303" />
+            <Image src="/images/phoneperson.png" loading='eager' width="400" height="303" alt="location" />
             </div>
 
             <h1 className='tagline'>Savings to Set Your Website in Motion</h1>
