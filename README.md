@@ -16,7 +16,7 @@
 - Improved footer layout for small devices like mobile 
 
 
-## **Some other Projects**  
+## **Some other Projects made by me**  
 
 **Education website** :- **[https://www.1markers.com](https://www.1markers.com "https://www.1markers.com")**  
 **Business website** :- **[https://processautomation.vercel.app](https://processautomation.vercel.app "https://processautomation.vercel.app")**  
