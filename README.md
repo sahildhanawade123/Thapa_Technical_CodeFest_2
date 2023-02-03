@@ -25,7 +25,7 @@
 
 
 
-## **Connect with Me**
+## **Connect with Me Guys**
 
 [<img style="margin-right: 1rem" src=https://thapa-technical-codefest-2.vercel.app/images/instagram.png height=30>](https://m.youtube.com/c/sahildhanawade)[<img style="margin-right: 1rem" src=https://thapa-technical-codefest-2.vercel.app/images/linkedin.png height=30>](https://m.youtube.com/c/sahildhanawade)[<img src=https://thapa-technical-codefest-2.vercel.app/images/youtube.png height=30>](https://m.youtube.com/c/sahildhanawade)
 
